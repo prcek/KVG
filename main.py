@@ -4,7 +4,7 @@ from base import BaseHandler
 
 class MainPage(BaseHandler):
     def get(self):
-        context = {'name': 'webapp2'}
+        context = {'name': 'webapp2 test'}
         self.render_response('index.html',**context)
 
 
